@@ -16,7 +16,7 @@ class Timer extends Component {
 
   shouldComponentUpdate(nextProps, nextState){
     return this.state.time < nextState.time
-}
+  }
 
   componentDidMount() {
     this.interval = setInterval(
